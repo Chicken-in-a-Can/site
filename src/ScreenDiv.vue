@@ -22,7 +22,7 @@
             return '';
         }
 
-        return `bg-[radial-gradient(256px_at_var(--x)_var(--y),rgba(255,0,124,0.15),transparent_80%)]`;
+        return `bg-[radial-gradient(128px_at_var(--x)_var(--y),rgba(187,154,247,0.15),transparent_80%)]`;
     });
 
 </script>
@@ -34,7 +34,7 @@
       @mousemove="updateMousePosition"
       :class="glowContainerClass"
       :style="glowStyle"
-      class="overflow-hidden transition-all duration-300 bg-(color:--magenta)/25 border-2 rounded-xl inset-shadow-sm/50 inset-shadow-(color:--magenta) cursor-none">
+      class="overflow-hidden transition-all duration-300 bg-(color:--bg) border-2 rounded-xl inset-shadow-sm/50 inset-shadow-(color:--blue) cursor-none">
         <slot></slot>
     </div>
 </template>

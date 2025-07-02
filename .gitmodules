@@ -1,4 +1,0 @@
-[submodule "rust/eenv-wasm"]
-	path = rust/eenv-wasm
-	url = https://github.com/chicken-in-a-can/eenv.git
-	branch = wasm
